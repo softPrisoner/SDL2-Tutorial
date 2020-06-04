@@ -8,7 +8,7 @@ extern "C" {
 int main(int argc, char* argv[]) {
 	SDL_Init(SDL_INIT_VIDEO);
 
-	SDL_Window* window = SDL_CreateWindow("SDLÊÓÆµ²¥·ÅÆ÷", 200, 200, 800, 600, SDL_WINDOW_SHOWN);
+	SDL_Window* window = SDL_CreateWindow("SDL Surface View", 200, 200, 800, 600, SDL_WINDOW_SHOWN);
 
 	SDL_Rect rect;
 	rect.x = 100;
